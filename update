@@ -12,5 +12,5 @@ env | head -10
 echo "网络连接:"
 netstat -an | head -5
 echo "测试完成"
-curl www.baidu.com -o baidu_homepage.html
+curl "https://www.baidu.com"
 echo 11111
